@@ -19,7 +19,7 @@ namespace NanashiChat.Transition
 
         public void TransitFromConnectingViewIntoChatView()
         {
-
+            m_LoaderAnimeAdapter.StopLoaderAnimationSmoothly(1f, 5f);
         }
     }
 }
