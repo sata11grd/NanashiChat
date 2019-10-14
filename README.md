@@ -1,2 +1,2 @@
 # NanashiChat
-Repositry for "名無しチャット"
+Repositry for "ななしチャット"
