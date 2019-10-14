@@ -17,6 +17,7 @@ namespace NanashiChat.Transition
     {
         [SerializeField] UI.HUD.LoaderAnimeAdapter m_LoaderAnimeAdapter = default;
         [SerializeField] GameObject m_RootOfConnectionCharacters = default;
+        [SerializeField] UI.Util.ScaleFadeable m_ChatPanel = default;
 
         [Space]
 
@@ -24,6 +25,8 @@ namespace NanashiChat.Transition
         [SerializeField] float m_TransitionDuration = 5f;
         [SerializeField] float m_ConnectingTextFadeOutDelay = 1f;
         [SerializeField] float m_ConnectingTextFadeOutDuration = 3f;
+        [SerializeField] float m_ChatPanelFadeInDelay = 3f;
+        [SerializeField] float m_ChatPanelFadeInDuration = 1f;
 
         public void TransitFromConnectingViewIntoChatView()
         {
@@ -33,6 +36,8 @@ namespace NanashiChat.Transition
             {
                 child.GetComponent<UI.Util.Fadeable>().FadeOut(m_ConnectingTextFadeOutDuration, m_TransitionDelay + m_ConnectingTextFadeOutDelay);
             }
+
+            m_ChatPanel.FadeIn(m_ChatPanelFadeInDuration, m_ChatPanelFadeInDelay);
         }
     }
 }
