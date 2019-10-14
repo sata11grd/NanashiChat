@@ -6650,7 +6650,7 @@ MonoBehaviour:
   m_ConnectingTextFadeOutDuration: 1
   m_ChatPanelFadeInDelay: 3
   m_ChatPanelFadeInDuration: 0.3
-  m_ChatPanelRotationSpeed: 1
+  m_ChatPanelRotationSpeed: 50
 --- !u!1 &1341188178
 GameObject:
   m_ObjectHideFlags: 0
