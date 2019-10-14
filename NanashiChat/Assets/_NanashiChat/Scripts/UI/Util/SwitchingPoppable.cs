@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
 
-namespace NanashiChat.UI.HUD.Util
+namespace NanashiChat.UI.Util
 {
     /// <summary>
     /// 1文字ずつ切り替えながらポップしていく表現を扱うクラスです。

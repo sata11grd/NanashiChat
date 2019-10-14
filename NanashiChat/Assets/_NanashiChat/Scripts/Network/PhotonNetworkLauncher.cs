@@ -77,6 +77,8 @@ namespace NanashiChat.Network
             {
                 Debug.Log("Joined room.");
             }
+
+            FindObjectOfType<Transition.TransitionManager>().TransitFromConnectingViewIntoChatView();
         }
 
         void IMatchmakingCallbacks.OnCreatedRoom()
