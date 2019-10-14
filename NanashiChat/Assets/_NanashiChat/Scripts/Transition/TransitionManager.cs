@@ -29,6 +29,11 @@ namespace NanashiChat.Transition
         [SerializeField] float m_ChatPanelFadeInDuration = 1f;
         [SerializeField] float m_ChatPanelRotationSpeed = 50f;
 
+        private void Awake()
+        {
+            m_ChatPanel.transform.localScale = Vector3.zero;
+        }
+
         public void TransitFromConnectingViewIntoChatView()
         {
             m_LoaderAnimeAdapter.StopLoaderAnimationSmoothly(m_TransitionDelay, m_TransitionDuration);
