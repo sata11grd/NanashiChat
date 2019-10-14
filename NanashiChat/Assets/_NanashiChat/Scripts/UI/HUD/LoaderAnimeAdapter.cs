@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
 
-namespace NanashiChat.UI
+namespace NanashiChat.UI.HUD
 {
     /// <summary>
     /// ローディングアニメーションの表現を扱うクラスのアダプタです。

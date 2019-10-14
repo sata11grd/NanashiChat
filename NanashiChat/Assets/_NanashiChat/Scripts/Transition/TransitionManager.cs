@@ -15,7 +15,7 @@ namespace NanashiChat.Transition
 {
     public class TransitionManager : MonoBehaviour
     {
-        [SerializeField] UI.LoaderAnimeAdapter m_LoaderAnimeAdapter = default;
+        [SerializeField] UI.HUD.LoaderAnimeAdapter m_LoaderAnimeAdapter = default;
         [SerializeField] GameObject m_RootOfConnectionCharacters = default;
 
         [Space]
