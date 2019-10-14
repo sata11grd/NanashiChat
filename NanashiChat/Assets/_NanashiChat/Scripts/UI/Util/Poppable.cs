@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
 
-namespace NanashiChat.UI.HUD.Util
+namespace NanashiChat.UI.Util
 {
     /// <summary>
     /// 文字をポップ可能にするクラスです。
